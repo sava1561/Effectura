@@ -7,21 +7,49 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A90F41CE581F5EC79EEF59F /* Pods_EffecturaTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04F5AF88AD6D9BA1CEDD67C2 /* Pods_EffecturaTest.framework */; };
 		30124FD31FDF120C00A0E78D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30124FD21FDF120C00A0E78D /* AppDelegate.swift */; };
-		30124FD51FDF120C00A0E78D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30124FD41FDF120C00A0E78D /* ViewController.swift */; };
 		30124FD81FDF120C00A0E78D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30124FD61FDF120C00A0E78D /* Main.storyboard */; };
 		30124FDA1FDF120C00A0E78D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30124FD91FDF120C00A0E78D /* Assets.xcassets */; };
 		30124FDD1FDF120C00A0E78D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30124FDB1FDF120C00A0E78D /* LaunchScreen.storyboard */; };
+		30124FE51FDF128C00A0E78D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 30124FE41FDF128C00A0E78D /* GoogleService-Info.plist */; };
+		30124FEC1FDF148F00A0E78D /* UsersModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30124FEB1FDF148F00A0E78D /* UsersModel.swift */; };
+		30124FEE1FDF14A000A0E78D /* UsersController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30124FED1FDF14A000A0E78D /* UsersController.swift */; };
+		30124FF01FDF14C800A0E78D /* UsersTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30124FEF1FDF14C800A0E78D /* UsersTableViewController.swift */; };
+		30124FF21FDF155700A0E78D /* UsersControllerInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30124FF11FDF155700A0E78D /* UsersControllerInput.swift */; };
+		30124FF41FDF15EB00A0E78D /* UsersModelInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30124FF31FDF15EB00A0E78D /* UsersModelInput.swift */; };
+		30124FF61FDF160000A0E78D /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30124FF51FDF160000A0E78D /* User.swift */; };
+		30124FF81FDF18D500A0E78D /* UsersViewInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30124FF71FDF18D500A0E78D /* UsersViewInput.swift */; };
+		30124FFA1FDFE01800A0E78D /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30124FF91FDFE01800A0E78D /* NavigationController.swift */; };
+		30124FFC1FDFE05200A0E78D /* UsersModuleAssembler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30124FFB1FDFE05200A0E78D /* UsersModuleAssembler.swift */; };
+		30124FFF1FDFF1B900A0E78D /* UserCreateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30124FFE1FDFF1B900A0E78D /* UserCreateViewController.swift */; };
+		301250011FE0051000A0E78D /* GenderPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301250001FE0051000A0E78D /* GenderPicker.swift */; };
+		308882FB1FE141B800AF9B7D /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308882FA1FE141B800AF9B7D /* UserCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		04F5AF88AD6D9BA1CEDD67C2 /* Pods_EffecturaTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EffecturaTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		16F3C920865879F15AA7ACB1 /* Pods-EffecturaTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EffecturaTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EffecturaTest/Pods-EffecturaTest.debug.xcconfig"; sourceTree = "<group>"; };
 		30124FCF1FDF120C00A0E78D /* EffecturaTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EffecturaTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		30124FD21FDF120C00A0E78D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		30124FD41FDF120C00A0E78D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		30124FD71FDF120C00A0E78D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		30124FD91FDF120C00A0E78D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		30124FDC1FDF120C00A0E78D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		30124FDE1FDF120C00A0E78D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30124FE41FDF128C00A0E78D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		30124FEB1FDF148F00A0E78D /* UsersModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersModel.swift; sourceTree = "<group>"; };
+		30124FED1FDF14A000A0E78D /* UsersController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersController.swift; sourceTree = "<group>"; };
+		30124FEF1FDF14C800A0E78D /* UsersTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersTableViewController.swift; sourceTree = "<group>"; };
+		30124FF11FDF155700A0E78D /* UsersControllerInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersControllerInput.swift; sourceTree = "<group>"; };
+		30124FF31FDF15EB00A0E78D /* UsersModelInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersModelInput.swift; sourceTree = "<group>"; };
+		30124FF51FDF160000A0E78D /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		30124FF71FDF18D500A0E78D /* UsersViewInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersViewInput.swift; sourceTree = "<group>"; };
+		30124FF91FDFE01800A0E78D /* NavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationController.swift; sourceTree = "<group>"; };
+		30124FFB1FDFE05200A0E78D /* UsersModuleAssembler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersModuleAssembler.swift; sourceTree = "<group>"; };
+		30124FFE1FDFF1B900A0E78D /* UserCreateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCreateViewController.swift; sourceTree = "<group>"; };
+		301250001FE0051000A0E78D /* GenderPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenderPicker.swift; sourceTree = "<group>"; };
+		308882FA1FE141B800AF9B7D /* UserCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCell.swift; sourceTree = "<group>"; };
+		DA6167000CD2F7564A6C9E54 /* Pods-EffecturaTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EffecturaTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-EffecturaTest/Pods-EffecturaTest.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A90F41CE581F5EC79EEF59F /* Pods_EffecturaTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +69,8 @@
 			children = (
 				30124FD11FDF120C00A0E78D /* EffecturaTest */,
 				30124FD01FDF120C00A0E78D /* Products */,
+				B0DBFC18B9872EBB4A973BCB /* Pods */,
+				E4EC4604D655DEEF61653BE6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,13 +86,90 @@
 			isa = PBXGroup;
 			children = (
 				30124FD21FDF120C00A0E78D /* AppDelegate.swift */,
-				30124FD41FDF120C00A0E78D /* ViewController.swift */,
+				30124FF91FDFE01800A0E78D /* NavigationController.swift */,
+				30124FFD1FDFF19E00A0E78D /* UserCreateModule */,
+				30124FE71FDF140E00A0E78D /* UsersModule */,
 				30124FD61FDF120C00A0E78D /* Main.storyboard */,
-				30124FD91FDF120C00A0E78D /* Assets.xcassets */,
-				30124FDB1FDF120C00A0E78D /* LaunchScreen.storyboard */,
 				30124FDE1FDF120C00A0E78D /* Info.plist */,
+				30124FE61FDF13F800A0E78D /* Support */,
 			);
 			path = EffecturaTest;
+			sourceTree = "<group>";
+		};
+		30124FE61FDF13F800A0E78D /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				30124FDB1FDF120C00A0E78D /* LaunchScreen.storyboard */,
+				30124FD91FDF120C00A0E78D /* Assets.xcassets */,
+				30124FE41FDF128C00A0E78D /* GoogleService-Info.plist */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+		30124FE71FDF140E00A0E78D /* UsersModule */ = {
+			isa = PBXGroup;
+			children = (
+				30124FEA1FDF143500A0E78D /* UsersModel */,
+				30124FE91FDF142400A0E78D /* UsersController */,
+				30124FE81FDF141C00A0E78D /* UsersView */,
+				30124FFB1FDFE05200A0E78D /* UsersModuleAssembler.swift */,
+			);
+			path = UsersModule;
+			sourceTree = "<group>";
+		};
+		30124FE81FDF141C00A0E78D /* UsersView */ = {
+			isa = PBXGroup;
+			children = (
+				30124FEF1FDF14C800A0E78D /* UsersTableViewController.swift */,
+				30124FF71FDF18D500A0E78D /* UsersViewInput.swift */,
+				308882FA1FE141B800AF9B7D /* UserCell.swift */,
+			);
+			path = UsersView;
+			sourceTree = "<group>";
+		};
+		30124FE91FDF142400A0E78D /* UsersController */ = {
+			isa = PBXGroup;
+			children = (
+				30124FED1FDF14A000A0E78D /* UsersController.swift */,
+				30124FF11FDF155700A0E78D /* UsersControllerInput.swift */,
+			);
+			path = UsersController;
+			sourceTree = "<group>";
+		};
+		30124FEA1FDF143500A0E78D /* UsersModel */ = {
+			isa = PBXGroup;
+			children = (
+				30124FF51FDF160000A0E78D /* User.swift */,
+				30124FEB1FDF148F00A0E78D /* UsersModel.swift */,
+				30124FF31FDF15EB00A0E78D /* UsersModelInput.swift */,
+			);
+			path = UsersModel;
+			sourceTree = "<group>";
+		};
+		30124FFD1FDFF19E00A0E78D /* UserCreateModule */ = {
+			isa = PBXGroup;
+			children = (
+				30124FFE1FDFF1B900A0E78D /* UserCreateViewController.swift */,
+				301250001FE0051000A0E78D /* GenderPicker.swift */,
+			);
+			path = UserCreateModule;
+			sourceTree = "<group>";
+		};
+		B0DBFC18B9872EBB4A973BCB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				16F3C920865879F15AA7ACB1 /* Pods-EffecturaTest.debug.xcconfig */,
+				DA6167000CD2F7564A6C9E54 /* Pods-EffecturaTest.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E4EC4604D655DEEF61653BE6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				04F5AF88AD6D9BA1CEDD67C2 /* Pods_EffecturaTest.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +179,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 30124FE11FDF120C00A0E78D /* Build configuration list for PBXNativeTarget "EffecturaTest" */;
 			buildPhases = (
+				147B8A1F84A044538330A93F /* [CP] Check Pods Manifest.lock */,
 				30124FCB1FDF120C00A0E78D /* Sources */,
 				30124FCC1FDF120C00A0E78D /* Frameworks */,
 				30124FCD1FDF120C00A0E78D /* Resources */,
+				2360FDD086486A311B144798 /* [CP] Embed Pods Frameworks */,
+				E4AE33DE151220C2D7EC30CC /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -125,19 +236,91 @@
 			files = (
 				30124FDD1FDF120C00A0E78D /* LaunchScreen.storyboard in Resources */,
 				30124FDA1FDF120C00A0E78D /* Assets.xcassets in Resources */,
+				30124FE51FDF128C00A0E78D /* GoogleService-Info.plist in Resources */,
 				30124FD81FDF120C00A0E78D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		147B8A1F84A044538330A93F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EffecturaTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2360FDD086486A311B144798 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-EffecturaTest/Pods-EffecturaTest-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/TextFieldEffects/TextFieldEffects.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TextFieldEffects.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EffecturaTest/Pods-EffecturaTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E4AE33DE151220C2D7EC30CC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EffecturaTest/Pods-EffecturaTest-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		30124FCB1FDF120C00A0E78D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				30124FD51FDF120C00A0E78D /* ViewController.swift in Sources */,
+				301250011FE0051000A0E78D /* GenderPicker.swift in Sources */,
+				308882FB1FE141B800AF9B7D /* UserCell.swift in Sources */,
+				30124FF21FDF155700A0E78D /* UsersControllerInput.swift in Sources */,
+				30124FF41FDF15EB00A0E78D /* UsersModelInput.swift in Sources */,
+				30124FEC1FDF148F00A0E78D /* UsersModel.swift in Sources */,
+				30124FFF1FDFF1B900A0E78D /* UserCreateViewController.swift in Sources */,
 				30124FD31FDF120C00A0E78D /* AppDelegate.swift in Sources */,
+				30124FFA1FDFE01800A0E78D /* NavigationController.swift in Sources */,
+				30124FF81FDF18D500A0E78D /* UsersViewInput.swift in Sources */,
+				30124FF01FDF14C800A0E78D /* UsersTableViewController.swift in Sources */,
+				30124FEE1FDF14A000A0E78D /* UsersController.swift in Sources */,
+				30124FF61FDF160000A0E78D /* User.swift in Sources */,
+				30124FFC1FDFE05200A0E78D /* UsersModuleAssembler.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,13 +455,15 @@
 		};
 		30124FE21FDF120C00A0E78D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 16F3C920865879F15AA7ACB1 /* Pods-EffecturaTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = PUCKVD2TSF;
 				INFOPLIST_FILE = EffecturaTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.geometryowl.EffecturaTest;
+				PRODUCT_BUNDLE_IDENTIFIER = com.geometryowl.effecturatest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -287,13 +472,15 @@
 		};
 		30124FE31FDF120C00A0E78D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA6167000CD2F7564A6C9E54 /* Pods-EffecturaTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = PUCKVD2TSF;
 				INFOPLIST_FILE = EffecturaTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.geometryowl.EffecturaTest;
+				PRODUCT_BUNDLE_IDENTIFIER = com.geometryowl.effecturatest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
